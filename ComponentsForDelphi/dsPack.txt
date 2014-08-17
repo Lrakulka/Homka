@@ -1,0 +1,19 @@
+Установка DsPack
+
+В установке нет ничего сложного. Она описана в файле ReadMe. Но на всякий случай:
+ 0) Распаковываем DsPack архив
+ 1) Запускаем Delphi
+ 2) Открываем настройки Tools -> Options
+ 3) Список каталогов библиотек Delphi Options -> Library – Win32
+ library patch
+ 4) В правой части окна жмем Library Path и добавляем пути к распакованным файлам:
+ \..\DsPack\src\DirectX9
+ и
+ \..\DsPack\src\DSPack
+
+2 - Compile DirectX 9 Package (DirectX9_Dx.dpk) from the "packages" directtory.
+
+3 - Compile DSPack Package (DSPack_Dx.dpk) from the "packages" directory.
+
+4- Install Design Package (DSPackDesign_Dx.dpk) from the "packages" directory.
+
